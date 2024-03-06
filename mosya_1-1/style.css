@@ -1,0 +1,137 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  color: #000000;
+  background-color: #ffffff;
+  font-family: "Noto Sans JP", sans-serif;
+  
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  font-weight: bold;
+  margin: 20px auto;
+  justify-content: space-between; 
+  align-items: center;
+  max-width: 960px;
+
+}
+nav a {
+  font-size: 34px;
+  text-decoration: none;
+
+  color: #000000;
+}
+.title1 {
+  border:solid 1px #000000;
+  padding: 10px;  
+}
+
+.title2 >a{
+  margin-left: 20px;
+  margin-right: 20px;
+
+}
+.camera {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 100%;
+}
+h2 {
+  text-align: center;
+  font-size: 34px;
+  font-weight:bold;
+}
+h3 {
+  font-size: 24px;
+  font-weight: bold;
+}
+li {
+  font-size: 18px;
+}
+p {
+  font-size: 18px;
+}
+
+.about{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 20px auto 20px auto;
+  max-width: 960px;
+}
+.about-image img {
+  border-radius: 50%;
+  width: 280px;
+  height: 280px;
+  object-fit: cover;
+  padding: 3px;
+  border: solid 3px gray;
+  margin-left: 20px;
+
+}
+
+.content {
+  margin: 0 auto;
+  padding-left: 40px;
+}
+div {
+  font-size: 0;
+}
+
+.works {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  max-width: 960px;
+  margin: 20px auto;
+}
+.picture {
+  padding-bottom: 60px;
+  margin: auto 20px auto 20px;
+  flex: auto;
+  flex-wrap: wrap;
+  width: 25%;
+    
+}
+.picture img {
+  width: 100%;
+}
+.item_center{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+
+footer {
+  text-align: center;
+
+}
+
+
+/* sp版 */
+@media screen and (max-width: 767px) {
+  body{ 
+    max-width: 767px;
+  }
+  .about {
+    justify-content: center;
+  }
+  .works{
+    display: block;
+
+  }
+  .item_center{
+    padding: 0;
+  }
+  .picture {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0 20px;
+  }
+}
+
+
